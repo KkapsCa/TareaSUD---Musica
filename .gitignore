@@ -5,9 +5,18 @@
 *.swp
 .DS_Store
 .atom/
+<<<<<<< HEAD
 .buildlog/
 .history/
 .svn/
+=======
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+>>>>>>> ccf4f787beb771d168566479fad6d14452a167cd
 
 # IntelliJ related
 *.iml
@@ -15,19 +24,34 @@
 *.iws
 .idea/
 
+<<<<<<< HEAD
 # VS Code
 .vscode/
+=======
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+>>>>>>> ccf4f787beb771d168566479fad6d14452a167cd
 
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
+<<<<<<< HEAD
 .flutter-plugins
 .flutter-plugins-dependencies
 .packages
 .pub-cache/
 .pub/
 /build/
+=======
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+>>>>>>> ccf4f787beb771d168566479fad6d14452a167cd
 
 # Symbolication related
 app.*.symbols
@@ -35,6 +59,7 @@ app.*.symbols
 # Obfuscation related
 app.*.map.json
 
+<<<<<<< HEAD
 # Android Studio
 /android/app/debug
 /android/app/profile
@@ -45,3 +70,9 @@ app.*.map.json
 
 # OpenCode skills
 .atl/
+=======
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+>>>>>>> ccf4f787beb771d168566479fad6d14452a167cd
